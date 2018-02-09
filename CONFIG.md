@@ -64,21 +64,9 @@ Click on **Enable**
 
 ![enable api][enableapi]
 
-### 5. Enable the OAuth consumer key
+### 5. Authorize the Admin SDK API for your Service Account Client
 
-Go to https://admin.google.com and navigate to `Security > Advanced settings > Manage OAuth domain key`
-
-> If you don't see the *Advanced settings* click on *Show more*
-
-![oauth key][oauthkey]
-
-Check the **Enable this consumer key** box
-
-![oauth enabled][oauthset]
-
-### 6. Authorize the Admin SDK API for your Service Account Client
-
-Finally, navigate to `Security > Advanced settings > Manage OAuth domain key`
+Navigate to `Security > Advanced settings > Manage OAuth domain key`
 
 ![Manage OAuth domain key][manageclient]
 
@@ -86,7 +74,7 @@ Enter the **Client ID** that was created in [step 2][step2] in the *Client Name*
 
 ![authorize service][authorizeservice]
 
-### 7. Fill out the API configuration fields
+### 6. Fill out the API configuration fields
 
 Awesome! You now have everything you need to configure the API.
 
